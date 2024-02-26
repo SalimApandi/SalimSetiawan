@@ -47,6 +47,13 @@ a {
 	color: #d72828;
 	
 }
+
+.container1 {
+	width:55%;
+	margin:0 auto;
+	color: #d72828;
+	
+}
 .container::after {
 	content: '';
 	display: block;
