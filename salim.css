@@ -318,4 +318,11 @@ html {
 	}
 }
 
+.project-img {
+    width: 20%; /* Ukuran lebar foto 100% dari container */
+    height: auto; /* Tinggi foto menyesuaikan proporsi aslinya */
+    max-width: 200px; /* Ukuran maksimum lebar foto, sesuaikan dengan kebutuhan */
+    display: block; /* Mengatasi margin bawah pada elemen inline */
+    margin: 0 auto; /* Untuk mengatur foto menjadi tengah */
+}
 
