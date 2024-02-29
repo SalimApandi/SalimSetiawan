@@ -2,70 +2,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Tugas Selesai</title>
-    <!-- Gaya CSS dapat ditambahkan di sini -->
-    <link rel="stylesheet" type="text/css" href="salim.css">
-    <!-- Contoh menggunakan Lightbox dari CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <title></title>
+    <link rel="stylesheet" href="salim.css">
 </head>
-<body>
+<button onclick="goBack()" class="back-button">Back</button>
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
+<section class="projects section" id="projects">
+    <h3 class="section__subtitle">
+       Tugas<span> saya</span>
+    </h3>
+ <P></P>
+    <h2 class="section__title">
+       Tugas Elektronika
+    </h2>
+ 
+    <div class="projects__container container grid">
+       <article class="projects__card">
+          <img src="C:\Users\naufa\Downloads\Desain tanpa judul (8).png" alt="Tugas 1" class="projects__img">
+ 
+          <div class="projects__modal">
+             <span class="projects__subtitle">Tugas 1</span>
+             <h2 class="projects__title">Resistor & sketsa web</h2>
+ 
+             <a href="https://docs.google.com/document/d/1U6lBRFf3tksGLuGnYJaw41QwEp0SA3hqH0_O42pGUpg/edit?usp=sharing" class="projects__button">
+                View Project <i class="ri-external-link-fill"></i>
+             </a>
+          </div>
+       </article>
+ 
+       <!-- Artikel projek lainnya -->
+    </div>
+ </section>
 
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 1em;
-            text-align: center;
-        }
-
-        section {
-            margin: 20px;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-        }
-
-        .task-list {
-            list-style: none;
-            padding: 0;
-        }
-
-        .task-item {
-            border-bottom: 1px solid #ccc;
-            padding: 10px 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Daftar Tugas Selesai</h1>
-    </header>
-
-    <section>
-        <h2>Tugas Selesai</h2>
-        <ul class="task-list">
-            <!-- Contoh item tugas selesai -->
-            <li class="task-item">
-                <a href="projek 1.jpg" data-lightbox="task1" data-title="Tugas 1">
-                    <img
-                        src="projek 1.jpg"
-                        alt="Project 1"
-                        class="project-img"
-                    >
-                </a>
-            </li>
-            <li class="task-item">Tugas 2</li>
-            <li class="task-item">Tugas 3</li>
-            <!-- Tambahkan item tugas selesai sesuai kebutuhan -->
-        </ul>
-    </section>
+<script>
+   function goBack() {
+    window.location.href = "index.html";
+   }
+</script>
 </body>
 </html>
+<body>
