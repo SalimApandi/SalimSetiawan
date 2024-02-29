@@ -325,7 +325,7 @@ html {
     display: block; /* Mengatasi margin bawah pada elemen inline */
     margin: 0 auto; /* Untuk mengatur foto menjadi tengah */
 }
-)/* Reset some default styles */
+/* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
@@ -339,13 +339,13 @@ body {
 
 /* Add some basic styling to the body */
 body {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: #333;
 }
 
 /* Style the header */
 header {
-    background-color: #007bff;
+    background-color: #939090;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -443,5 +443,4 @@ header {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     }
 }
-
 
