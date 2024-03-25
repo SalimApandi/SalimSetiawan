@@ -319,8 +319,8 @@ html {
 }
 
 .project-img {
-    width: 20%; /* Ukuran lebar foto 100% dari container */
-    height: 50%; /* Tinggi foto menyesuaikan proporsi aslinya */
+    width: 5%; /* Ukuran lebar foto 100% dari container */
+    height: 10%; /* Tinggi foto menyesuaikan proporsi aslinya */
     max-width: 50px; /* Ukuran maksimum lebar foto, sesuaikan dengan kebutuhan */
     display: block; /* Mengatasi margin bawah pada elemen inline */
     margin: 0 auto; /* Untuk mengatur foto menjadi tengah */
