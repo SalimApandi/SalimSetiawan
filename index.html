@@ -71,6 +71,26 @@
     </div>
 </section>
 
+<script>
+function addSecondImage() {
+    // Mengambil elemen kontainer
+    var container = document.querySelector('.container');
+    
+    // Membuat elemen gambar kedua
+    var secondImage = document.createElement('img');
+    secondImage.src = 'dioda.jpg';
+    secondImage.alt = 'Arduino';
+    secondImage.width = 300;
+    secondImage.height = 200;
+
+    // Menambahkan elemen gambar kedua ke dalam kontainer setelah gambar pertama
+    container.appendChild(secondImage);
+}
+</script>
+
+</body>
+</html>
+
 				
 		<!-- bagian contact -->
 		<section id="contact">
